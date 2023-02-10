@@ -21,6 +21,6 @@
   },
   {
     "ParameterKey": "SSHKeyName", 
-    "ParameterValue": "cool-key"
+    "ParameterValue": "ocp-disco-us-east-2"
   }
 ]
