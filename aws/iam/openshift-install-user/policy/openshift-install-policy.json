@@ -190,7 +190,10 @@
                 "s3:ListBucketMultipartUploads",
                 "s3:AbortMultipartUpload",
                 "ec2:DescribeInstanceTypeOfferings",
-                "servicequotas:ListAWSDefaultServiceQuotas"
+                "servicequotas:ListAWSDefaultServiceQuotas",
+                "cloudfront:CreateCloudFrontOriginAccessIdentity",
+                "iam:ListOpenIDConnectProviders",
+                "iam:GetOpenIDConnectProvider"
             ],
             "Resource": "*"
         }
