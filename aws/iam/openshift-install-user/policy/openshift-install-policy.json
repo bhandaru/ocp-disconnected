@@ -193,7 +193,11 @@
                 "servicequotas:ListAWSDefaultServiceQuotas",
                 "cloudfront:CreateCloudFrontOriginAccessIdentity",
                 "iam:ListOpenIDConnectProviders",
-                "iam:GetOpenIDConnectProvider"
+                "iam:GetOpenIDConnectProvider",
+                "s3:PutBucketPolicy",
+                "cloudfront:CreateDistribution",
+                "cloudfront:TagResource",
+                "cloudfront:GetDistribution"
             ],
             "Resource": "*"
         }
