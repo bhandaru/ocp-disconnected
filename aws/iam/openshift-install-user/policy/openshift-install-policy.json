@@ -198,7 +198,8 @@
                 "cloudfront:CreateDistribution",
                 "cloudfront:TagResource",
                 "cloudfront:GetDistribution",
-                "iam:CreateOpenIDConnectProvider"
+                "iam:CreateOpenIDConnectProvider",
+                "iam:TagOpenIDConnectProvider"
             ],
             "Resource": "*"
         }
