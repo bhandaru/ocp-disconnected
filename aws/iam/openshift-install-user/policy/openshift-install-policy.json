@@ -197,7 +197,8 @@
                 "s3:PutBucketPolicy",
                 "cloudfront:CreateDistribution",
                 "cloudfront:TagResource",
-                "cloudfront:GetDistribution"
+                "cloudfront:GetDistribution",
+                "iam:CreateOpenIDConnectProvider"
             ],
             "Resource": "*"
         }
